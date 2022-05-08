@@ -1,5 +1,4 @@
-import info from '../data/info.json'
-export const About = () => {
-  return <p className="about">{info.about}</p>;
+export const About = (props: { about: string }) => {
+  return <p className="about">{props.about}</p>;
 };
 export { };
