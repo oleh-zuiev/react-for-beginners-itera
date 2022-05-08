@@ -1,0 +1,26 @@
+.maincontainer {
+  border: 1px solid rgb(11, 151, 11);
+  width: 700px;
+  height: auto;
+  margin: 0 auto;
+  padding: 25px;
+}
+/* =============== */
+.photoContainer {
+  border: 2px solid purple;
+  padding: 10px;
+}
+img {
+  width: 150px;
+  height: 200px;
+  border-radius: 50%;
+}
+.fullname {
+  border: 1px solid blue;
+}
+.about {
+  border: 1px solid orange;
+}
+.contacts {
+  border: 1px solid greenyellow;
+}
