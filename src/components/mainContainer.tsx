@@ -1,6 +1,7 @@
 import { Contacts } from './contacts';
 import { About } from './about';
 import { FullName } from './fullname';
+import { TestButton } from './testButton';
 import React from 'react';
 // import logo from './logo.svg';
 import '../App.css';
@@ -14,6 +15,7 @@ const MainContainer = () => {
             <FullName />
             <About />
             <Contacts />
+            <TestButton />
         </div>
     )
 }
