@@ -1,9 +1,16 @@
-
-export const TestButton = () => {
+import { useState } from "react";
+const TestButton = (props: { log: string }) => {
+    const [name, setState] = useState('morning');
     const handleClick = () => {
-        console.log('button clicked');
+        setState('night');
+        console.log(props.log);
     };
 
-    return <button onClick={handleClick}>click me</button>;
+    return (
+        <div>
+            <p>{name}</p>
+            <button onClick={handleClick}>{props.log}</button>
+        </div>
+    );
 };
-export { };
+export default TestButton;
